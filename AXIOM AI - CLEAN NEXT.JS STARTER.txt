@@ -1,0 +1,61 @@
+// AXIOM AI - CLEAN NEXT.JS STARTER
+// This is the FULL working Next.js project in ONE file.
+// Copy this into your folder as instructed.
+
+
+// ---------- next.config.js ----------
+export const nextConfig = {
+reactStrictMode: false,
+};
+export default nextConfig;
+
+
+// ---------- package.json ----------
+/*
+{
+"name": "axiom-ai",
+"version": "1.0.0",
+"private": true,
+"scripts": {
+"dev": "next dev",
+"build": "next build",
+"start": "next start"
+},
+"dependencies": {
+"next": "14.1.0",
+"react": "18.2.0",
+"react-dom": "18.2.0"
+}
+}
+*/
+
+
+// ---------- src/pages/index.js ----------
+export default function Home() {
+return (
+<div style={{
+background: "#111",
+color: "white",
+height: "100vh",
+display: "flex",
+flexDirection: "column",
+justifyContent: "center",
+alignItems: "center"
+}}>
+<h1 style={{ fontSize: "44px", fontWeight: "bold" }}>Axiom AI</h1>
+<p>Default clean Next.js version is working.</p>
+</div>
+);
+}
+
+
+// ---------- folder structure (copy this into your machine) ----------
+/*
+axiom-ai/
+│ package.json
+│ next.config.js
+│
+└── src/
+└── pages/
+└── index.js
+*/
